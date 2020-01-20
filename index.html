@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <!-- Google Font  -->
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- Custom CSS  -->
+        <link rel="stylesheet" href="style.css" />
+
+        <title>ThirdEye :: Admin Dashboard</title>
+    </head>
+    <body>
+        <!-- Navbar  -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#left_sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="left_sidebar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Left Sidebar  -->
+                        <div class="col-lg-2 col-md-3 left_sidebar fixed-top">
+                            <a href="#" class="navbar-brand text-white text-center d-block mb-2">ThirdEye Admin</a>
+                            <div class="profile text-center">
+                                <img class="rounded-circle" src="images/profile.jpg" width="50" alt="" />
+                                <a class="d-block text-white" href="#">Marion Hash</a>
+                            </div>
+
+                            <ul class="navbar-nav flex-column mt-3">
+                                <li class="nav-item">
+                                    <a href="index.html" class="active"><i class="fa fa-home" aria-hidden="true"></i>Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Users</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Setup</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i>Purchases</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Sales</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>Report</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-film" aria-hidden="true"></i>Tables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="chart.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>Charts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end left sidebar  -->
+
+                        <!-- Top Navbar  -->
+                        <div class="col-lg-10 col-md-9 ml-auto bg-dark fixed-top top_navbar">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h5 class="text-white top_nav">Dashboard</h5>
+                                </div>
+                                <div class="col-md-5">
+                                    <form action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control search_box" placeholder="Search here" />
+                                            <button class="btn btn-warning search_button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-3 d-flex align-items-center">
+                                    <ul class="navbar-nav ml-auto top_right_links">
+                                        <li class="nav-item">
+                                            <a href="#"><i class="fa fa-comments text-white"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#"><i class="fa fa-bell text-white"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="login.html"><i class="fa fa-sign-out text-white"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end top navbar  -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end Navbar  -->
+
+        <!-- Main Content  -->
+        <main class="col-lg-10 col-md-9 ml-auto mt-5 main_content">
+            <div class="container-fluid">
+                <!-- Widgets Area  -->
+                <div class="row">
+                    <!-- Sales Widgets  -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-body d-flex justify-content-between">
+                                <i class="fa fa-shopping-cart fa-3x"></i>
+                                <div class="text-right">
+                                    <h5 class="card-title mb-0">Sales</h5>
+                                    <p class="card-text">Sales $5,000</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                Total Users: 375
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Sales widgets  -->
+                    <!-- Visitor Today  -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-white bg-danger mb-3">
+                            <div class="card-body d-flex justify-content-between">
+                                <i class="fa fa-user-circle-o fa-3x"></i>
+                                <div class="text-right">
+                                    <h5 class="card-title mb-0">Visitors</h5>
+                                    <p class="card-text">Visitors 1050</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                Total Visitors: 3,75,458
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Visitor Today  -->
+                    <!-- Profit  -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-white bg-warning mb-3">
+                            <div class="card-body d-flex justify-content-between">
+                                <i class="fa fa-money fa-3x"></i>
+                                <div class="text-right">
+                                    <h5 class="card-title mb-0">Profit</h5>
+                                    <p class="card-text">Profit $3,000</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                Total Profit: $25,375
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Profit widgets  -->
+                    <!-- Collection Widgets  -->
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card text-white bg-success mb-3">
+                            <div class="card-body d-flex justify-content-between">
+                                <i class="fa fa-credit-card fa-3x"></i>
+                                <div class="text-right">
+                                    <h5 class="card-title mb-0">Collection</h5>
+                                    <p class="card-text">$2,400</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                Total Collection: $56,458
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Collection widgets  -->
+                </div>
+                <!-- end widgets area  -->
+
+                <!-- Dashboard bottom section  -->
+                <div class="row">
+                    <!-- Message  -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header"><h5>Send Message</h5></div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Select Users</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>...</option>
+                                            <option>John doe</option>
+                                            <option>Marion Hash</option>
+                                            <option>Jack Martin</option>
+                                            <option>Peter</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Subjects</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="i.e. Message title" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <button class="btn btn-success" type="button">Submit</button>
+                                    <button class="btn btn-secondary" type="reset">Clear</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end message  -->
+
+                    <!-- Collection List  -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header"><h5>Collection list</h5></div>
+                            <div class="card-body table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Customer Name</th>
+                                            <th scope="col">Phone</th>
+                                            <th scope="col">Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>45456123231</td>
+                                            <td>$454</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>245646312</td>
+                                            <td>$562</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>785644654</td>
+                                            <td>$789</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>785644654</td>
+                                            <td>$789</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>785644654</td>
+                                            <td>$789</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>785644654</td>
+                                            <td>$789</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- end Collection List  -->
+                </div>
+                <!-- end Dashboard bottom section  -->
+            </div>
+        </main>
+        <!-- end Main Content  -->
+
+        <!-- Footer  -->
+        <footer>
+            <div class="col-lg-10 col-md-9 ml-auto mt-5 text-center py-3 bg-dark text-white">
+                <div class="container-fluid">
+                    Powered by: ThirdEye
+                </div>
+            </div>
+        </footer>
+        <!-- end Footer  -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

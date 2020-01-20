@@ -1,0 +1,102 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #ddd;
+    font-size: 14px;
+}
+.left_sidebar{
+    height: 100vh;
+    background-color: #000055;
+}
+.left_sidebar a.navbar-brand{
+    background-color: orange;
+    margin: 0 -15px;
+}
+.profile{
+    border-bottom: 1px solid white;
+}
+.nav-item{
+    margin-bottom: 5px;
+}
+.left_sidebar .nav-item a{
+    color: white;
+    display: block;
+    padding: 5px;
+    background-color: #7978ef;
+    text-decoration: none;
+    transition: all .5s;
+}
+.nav-item>a>i{
+    margin-right: 5px;
+}
+.left_sidebar .nav-item a:hover {
+    background-color: orange;
+    color: #000055;
+}
+.left_sidebar a.active{
+    background-color: #ffa50085;
+}
+h5.top_nav{
+    padding: 5px 0;
+    margin:0;
+    height: 40px;
+}
+.search_box{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid orange;
+}
+.search_button{
+    padding: 5px 10px;
+    margin-top: 3px;
+    height: 34px;
+}
+.search_box:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.search_button:hover{
+    background: red;
+    border-radius: 5px;
+}
+.fa-comments:hover, .fa-bell:hover, .fa-sign-out:hover{
+    color: red !important;
+}
+.fa-sign-out{
+    margin-left: 20px;
+}
+.main_content{
+
+}
+.login_back{
+    background:url('images/login_back.jpg');
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.login_form{
+    margin-top: 100px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 992px){
+    .login_back{
+        background-size: cover;
+    }
+}
+@media screen and (max-width:767px){
+    .login_back{
+        margin: 0 20px;
+    }
+    .left_sidebar{
+        position: relative;
+        height: auto;
+    }
+    .top_navbar{
+        position: relative;
+    }
+    .top_right_links{
+        margin:0!important;
+    }
+    .fa-sign-out{
+        margin: 0;
+    }
+}
